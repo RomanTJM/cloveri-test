@@ -27,8 +27,6 @@ function App() {
           sliders={sliders}
         />
       }
-
-
     </div>
   );
 }
