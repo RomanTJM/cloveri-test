@@ -15,20 +15,20 @@ export const ArrowButton = ({ sliders, activeSleder, setActiveSleder }) => {
         setActiveSleder(slideNumber);
     };
 
-    // useEffect(() => {
-    //     const interval = setInterval(() => {
-    //       changeSlide(1);
-    //     }, 5000);
-    
-    //     return () => {
-    //       clearInterval(interval);
-    //     };
-    //   }, [sliders.length, activeSleder]);
+    useEffect(() => {
+        const interval = setInterval(() => {
+            changeSlide(1);
+        }, 5000);
 
-    return(
+        return () => {
+            clearInterval(interval);
+        };
+    }, [sliders.length, activeSleder]);
+
+    return (
         <div className='arrow-button'>
             <button className='arrow-left' onClick={() => changeSlide(- 1)}></button>
-            <button className='arrow-right' onClick={() => changeSlide( + 1)}></button>
+            <button className='arrow-right' onClick={() => changeSlide(+ 1)}></button>
         </div>
     )
 }

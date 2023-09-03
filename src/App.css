@@ -1,18 +1,7 @@
-/* 
-
-@media (min-width: 1920px) {
-  .App {
-    background: rgba(246, 246, 246, 1);
-    padding: 110px 0;
-  }
-} */
-
-
-  .App {
-    background: rgba(246, 246, 246, 1);
-    padding: 101px 0;
-  }
-
+.App {
+  background: rgba(246, 246, 246, 1);
+  padding: 101px 0;
+}
 
 @media (max-width: 745px) {
   .App {
