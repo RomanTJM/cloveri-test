@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/cloveri-test/static/css/main.ae50e3d2.css",
+    "main.js": "/cloveri-test/static/js/main.ff254f94.js",
+    "static/media/img1.png": "/cloveri-test/static/media/img1.c7cd69d4077735c37958.png",
+    "static/media/img2.png": "/cloveri-test/static/media/img2.ba99376f99ec1cada8a2.png",
+    "index.html": "/cloveri-test/index.html",
+    "static/media/ArrowRight.svg": "/cloveri-test/static/media/ArrowRight.62c315180e3587874430.svg",
+    "static/media/ArrowLeft.svg": "/cloveri-test/static/media/ArrowLeft.9568e09f32aac8e74e75.svg",
+    "main.ae50e3d2.css.map": "/cloveri-test/static/css/main.ae50e3d2.css.map",
+    "main.ff254f94.js.map": "/cloveri-test/static/js/main.ff254f94.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ae50e3d2.css",
+    "static/js/main.ff254f94.js"
+  ]
+}
