@@ -1,0 +1,31 @@
+/* 
+
+@media (min-width: 1920px) {
+  .App {
+    background: rgba(246, 246, 246, 1);
+    padding: 110px 0;
+  }
+} */
+
+
+  .App {
+    background: rgba(246, 246, 246, 1);
+    padding: 101px 0;
+  }
+
+
+@media (max-width: 745px) {
+  .App {
+    width: 100%;
+    background: #FFFFFF;
+    padding: 66px 0 107px 0;
+  }
+}
+
+@media (max-width: 376px) {
+  .App {
+    width: 100%;
+    padding: 57px 0 72px 0;
+    background: #FFFFFF;
+  }
+}

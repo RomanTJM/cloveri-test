@@ -1,0 +1,56 @@
+.arrow-button button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+
+.arrow-button .arrow-left {
+    content: "";
+    width: 60px;
+    height: 60px;
+    border: none;
+    border-radius: 50px;
+    left: 6px;
+    background-image: url('../../Assets/Icons/ArrowLeft.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #F6F6F6;
+    cursor: pointer;
+    color: #1F1F1F;
+}
+
+.arrow-button .arrow-right {
+    content: "";
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    border: none;
+    right: 12px;
+    background-image: url('../../Assets/Icons/ArrowRight.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #F6F6F6;
+    cursor: pointer;
+    color: #1F1F1F;
+}
+
+.arrow-left:active, .arrow-right:active {
+    color: #3B71D3;
+}
+
+.arrow-left:hover, .arrow-right:hover {
+   color: #3B71D3;
+}
+
+@media (max-width: 745px) {
+    .arrow-button {
+        display: none;
+    }
+  }
+  
+  @media (max-width: 376px) {
+    .arrow-button {
+        display: none;
+    }
+  }

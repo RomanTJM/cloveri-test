@@ -1,0 +1,16 @@
+.dot {
+    background-color: #F6F6F6;
+    border-radius: 50px;
+    height: 16px;
+    width: 16px;
+    cursor: pointer;
+    margin: 4px;
+}
+
+.selected {
+    background-color: #3B71D3;
+}
+
+.dot:hover {
+    background-color: #B1C6ED;
+}
